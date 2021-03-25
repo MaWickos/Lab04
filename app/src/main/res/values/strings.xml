@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab04 - Kółko i krzyżyk </string>
+    <string name="button"> </string>
+    <string name="naglowek"> Informacje o rozgrywce </string>
+    <string name="czyscStatystyki"> Zeruj statystyki</string>
+    <string name="zacznijOdNowa"> Zacznij od nowa</string>
+
+</resources>

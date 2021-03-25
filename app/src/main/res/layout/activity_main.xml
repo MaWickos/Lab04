@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button_0_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="kliknieciePrzycisku"
+                android:text="@string/button" />
+
+            <Button
+                android:id="@+id/button_0_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="kliknieciePrzycisku"
+                android:text="@string/button" />
+
+            <Button
+                android:id="@+id/button_0_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="kliknieciePrzycisku"
+                android:text="@string/button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button_1_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="kliknieciePrzycisku"
+                android:text="@string/button" />
+
+            <Button
+                android:id="@+id/button_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="kliknieciePrzycisku"
+                android:text="@string/button" />
+
+            <Button
+                android:id="@+id/button_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="kliknieciePrzycisku"
+                android:text="@string/button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button_2_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="kliknieciePrzycisku"
+                android:text="@string/button" />
+
+            <Button
+                android:id="@+id/button_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="kliknieciePrzycisku"
+                android:text="@string/button" />
+
+            <Button
+                android:id="@+id/button_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="kliknieciePrzycisku"
+                android:text="@string/button" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/zacznijOdNowa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="zacznijOdNowa"
+        android:text="@string/zacznijOdNowa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
